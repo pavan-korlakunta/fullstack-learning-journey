@@ -8,3 +8,6 @@ Try editing this file, then:
 3. Use 'git commit -m "Your message"' to save the changes
 
 Happy learning! 🎉
+
+
+This is a new line I'm adding to practice git!
