@@ -1,0 +1,10 @@
+Welcome to your Git practice file!
+
+This is a simple text file you can use to practice Git commands.
+
+Try editing this file, then:
+1. Use 'git status' to see the changes
+2. Use 'git add practice.txt' to stage the file
+3. Use 'git commit -m "Your message"' to save the changes
+
+Happy learning! 🎉
