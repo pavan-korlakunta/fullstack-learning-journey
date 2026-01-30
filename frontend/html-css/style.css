@@ -1,0 +1,117 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: navy;
+    font-size: 28px;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Styling by class - use . (dot) */
+.highlight {
+    background-color: yellow;
+    padding: 5px;
+}
+
+/* Styling by ID - use # (hash) */
+#main-title {
+    color: red;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+/* Styling links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Margin - space OUTSIDE the element */
+.box {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid rgb(159, 55, 55);
+    background-color: lightgray;
+}
+
+/* Different margins for each side */
+.spaced {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 10px 20px; /* top/bottom left/right */
+}
+
+/* Block elements take full width */
+.block-element {
+    display: block;
+    width: 100%;
+    background-color: lightcoral;
+    margin-bottom: 10px;
+}
+
+/* Inline elements only take needed width */
+.inline-element {
+    display: inline;
+    background-color: lightgreen;
+    margin-right: 10px;
+}
+
+/* Flexbox for layout */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Different ways to specify colors */
+.color-example-1 {
+    color: red;                    /* Named color */
+    background-color: #ff0000;     /* Hex color */
+}
+
+.color-example-2 {
+    color: rgb(0, 128, 255);       /* RGB (Red, Green, Blue) */
+    background-color: rgba(255, 0, 0, 0.5); /* RGBA (with transparency) */
+}
+
+/* Transparency with opacity */
+.transparent {
+    background-color: blue;
+    opacity: 0.5;  /* 0 = invisible, 1 = fully visible */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;    /* Horizontal alignment */
+    align-items: center;        /* Vertical alignment */
+    flex-direction: row;        /* row or column */
+    flex-wrap: wrap;            /* Wrap items to next line */
+}
+
+.flex-item {
+    flex: 1;                   /* Grow to fill space */
+    margin: 10px;
+    padding: 20px;
+    background-color: lightblue;
+}

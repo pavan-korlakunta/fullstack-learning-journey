@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <h1 id="main-title">Hello, World!</h1>
+    <p class="highlight">This paragraph is highlighted!</p>
+    <p>This is my first paragraph!</p>
+    <h2>This is a smaller heading</h2>
+    <h3>This is even smaller</h3>
+    <p>Notice how the headings get smaller!</p>
+    <h2>Links</h2>
+    <p>Visit <a href="https://www.google.com">Google</a> to search the web.</p>
+    <p>Or go to <a href="https://github.com">GitHub</a> to see code repositories.</p>
+    <h2>Lists</h2>
+    <h3>My Favorite Programming Languages (Ordered List):</h3>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ol>
+
+    <h3>Things I Need to Buy (Unordered List):</h3>
+    <ul>
+        <li>Laptop</li>
+        <li>Notebook</li>
+        <li>Pen</li>
+    </ul>
+    <h2>Images</h2>
+    <p>Here's an example image (using a placeholder):</p>
+    <img src="https://via.placeholder.com/300x200" alt="Placeholder image">
+    <p>The image above is 300 pixels wide and 200 pixels tall.</p>
+    <h2>Text Formatting</h2>
+    <p>This is <strong>bold text</strong> using the strong tag.</p>
+    <p>This is <em>italic text</em> using the em tag.</p>
+    <p>This is <mark>highlighted text</mark> using the mark tag.</p>
+    <p>This is <small>smaller text</small> using the small tag.</p>
+    <p>This is <del>deleted text</del> and this is <ins>inserted text</ins>.</p>
+    <p>This is <sub>subscript</sub> and this is <sup>superscript</sup>.</p>
+    <h2>Tables</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Pavan</td>
+            <td>25</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>30</td>
+            <td>London</td>
+        </tr>
+        <tr>
+            <td>Sarah</td>
+            <td>28</td>
+            <td>Tokyo</td>
+        </tr>
+    </table>
+    <h2>Forms</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Divs and Sections</h2>
+
+    <div style="background-color: lightcoral; padding: 20px; margin: 10px;">
+        <h3>This is a div with styling</h3>
+        <p>Divs are used to group and organize content. This div has a light blue background.</p>
+    </div>
+
+    <section style="background-color: lightgreen; padding: 20px; margin: 10px;">
+        <h3>This is a section</h3>
+        <p>Sections are similar to divs but have semantic meaning - they represent a distinct section of content.</p>
+    </section>
+
+    <article style="background-color: lightyellow; padding: 20px; margin: 10px;">
+        <h3>This is an article</h3>
+        <p>Articles represent independent, self-contained content like blog posts or news stories.</p>
+    </article>
+    <h2>More Form Elements</h2>
+    <form>
+        <h3>Checkboxes:</h3>
+        <input type="checkbox" id="html" name="skills" value="html">
+        <label for="html">I know HTML</label><br>
+        
+        <input type="checkbox" id="css" name="skills" value="css">
+        <label for="css">I know CSS</label><br>
+        
+        <input type="checkbox" id="js" name="skills" value="javascript">
+        <label for="js">I know JavaScript</label><br><br>
+        
+        <h3>Radio Buttons:</h3>
+        <input type="radio" id="beginner" name="level" value="beginner">
+        <label for="beginner">Beginner</label><br>
+        
+        <input type="radio" id="intermediate" name="level" value="intermediate">
+        <label for="intermediate">Intermediate</label><br>
+        
+        <input type="radio" id="advanced" name="level" value="advanced">
+        <label for="advanced">Advanced</label><br><br>
+        
+        <h3>Dropdown Menu:</h3>
+        <label for="country">Select your country:</label>
+        <select id="country" name="country">
+            <option value="">Choose...</option>
+            <option value="usa">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+        </select><br><br>
+        
+        <button type="submit">Submit Form</button>
+    </form>
+    
+    <h2>Semantic HTML Elements</h2>
+
+    <header style="background-color: #333; color: white; padding: 20px; text-align: center;">
+        <h1>Website Header</h1>
+        <p>This is the header section</p>
+    </header>
+
+    <nav style="background-color: #f0f0f0; padding: 10px;">
+        <a href="#home" style="margin: 0 10px;">Home</a>
+        <a href="#about" style="margin: 0 10px;">About</a>
+        <a href="#contact" style="margin: 0 10px;">Contact</a>
+    </nav>
+
+    <main style="padding: 20px;">
+        <h3>Main Content Area</h3>
+        <p>This is the main content of the page.</p>
+    </main>
+
+    <aside style="background-color: #e0e0e0; padding: 15px; margin: 10px;">
+        <h4>Sidebar</h4>
+        <p>This is an aside - often used for sidebars or additional information.</p>
+    </aside>
+
+    <footer style="background-color: #333; color: white; padding: 15px; text-align: center;">
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+
+    <h2>HTML Comments and More Elements</h2>
+
+    <!-- This is an HTML comment - it won't show on the webpage -->
+    <p>Comments are useful for notes in your code. Check the page source to see them!</p>
+
+    <hr>
+    <p>Above is a horizontal rule (hr) - it creates a line to separate content.</p>
+
+    <hr style="border: 2px solid red;">
+
+    <blockquote style="border-left: 4px solid #ccc; padding-left: 20px; margin: 20px;">
+        "This is a blockquote - used for quotes or citations."
+        <cite>— Famous Person</cite>
+    </blockquote>
+
+    <pre style="background-color: #f4f4f4; padding: 10px;">
+    This is preformatted text.
+    It preserves    spaces    and
+    line breaks exactly as written.
+    </pre>
+
+    <code style="background-color: #f4f4f4; padding: 2px 5px;">This is inline code</code> in a sentence.
+</body>
+</html>
