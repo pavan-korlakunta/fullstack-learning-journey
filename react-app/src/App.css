@@ -1,0 +1,77 @@
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.empty {
+  color: #666;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f0f0f0;
+  margin: 6px auto;
+  padding: 8px;
+  border-radius: 6px;
+  max-width: 300px;
+}
+
+.btn {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #333;
+  background: #333;
+  color: white;
+  border-radius: 6px;
+}
+
+.btn.secondary {
+  background: white;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f0f0f0;
+  margin: 8px auto;
+  padding: 10px 12px;
+  border-radius: 6px;
+  max-width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+li button {
+  margin-left: 12px;
+}
